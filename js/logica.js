@@ -155,7 +155,7 @@ export function filtrarPorNombre(lista, texto) {
     // El texto buscado y el nombre se pasan a minúsculas para compararlos.
     const buscado = texto.trim().toLowerCase();
     const resultado = [];
-
+    
     // Se guardan los participantes cuyo nombre contiene el texto.
     for (const participante of lista) {
         if (participante.nombre.toLowerCase().includes(buscado)) {
